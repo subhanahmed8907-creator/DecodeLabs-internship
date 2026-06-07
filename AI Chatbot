@@ -1,1 +1,3 @@
-This chatbot is a simple rule-based conversational system designed to interact with users through predefined responses. It recognizes common greetings, answers basic queries, and responds appropriately using conditional logic. The chatbot runs continuously until the user enters an exit command, providing a basic demonstration of human-computer interaction.
+This chatbot is a simple rule-based conversational system designed to interact with users through predefined responses.
+It recognizes common greetings, answers basic queries, and responds appropriately using conditional logic.
+The chatbot runs continuously until the user enters an exit command, providing a basic demonstration of human-computer interaction.
