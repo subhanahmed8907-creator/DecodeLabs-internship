@@ -1,3 +1,18 @@
-This chatbot is a simple rule-based conversational system designed to interact with users through predefined responses.
-It recognizes common greetings, answers basic queries, and responds appropriately using conditional logic.
-The chatbot runs continuously until the user enters an exit command, providing a basic demonstration of human-computer interaction.
+while True:
+    user = input("You: ").lower()
+
+    if user == "hi" or user == "hello" or user == "hey":
+        print("Bot: Hello! How can I help you?")
+
+    elif user == "how are you":
+        print("Bot: I'm doing great. Thanks for asking!")
+
+    elif user == "what is your name":
+        print("Bot: I am a simple chatbot.")
+
+    elif user == "bye" or user == "exit" or user == "quit":
+        print("Bot: Goodbye!")
+        break
+
+    else:
+        print("Bot: Sorry, I don't understand that.")
